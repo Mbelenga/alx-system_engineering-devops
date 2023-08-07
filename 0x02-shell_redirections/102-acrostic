@@ -1,0 +1,3 @@
+#!/bin/bash
+cut -c 1 | paste -s -d"
+103-the_biggest_fan
