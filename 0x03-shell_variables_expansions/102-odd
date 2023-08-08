@@ -1,0 +1,2 @@
+#!/bin/bash
+perl -|ne 'printif$.%2==1'
