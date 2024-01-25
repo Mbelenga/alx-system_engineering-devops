@@ -22,4 +22,3 @@ do
 			;;
 esac
 count=$((count+1))
-done
