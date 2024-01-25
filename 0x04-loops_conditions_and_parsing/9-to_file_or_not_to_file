@@ -14,8 +14,8 @@ if [ -e "$file" ]
 	fi
 
 	if [ -f "$file" ]
-	then
-		echo "school is a regular file"
+		then
+			echo "school is a regular file"
 	fi
 else
 	echo "school file does notexist"
