@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# A Bash Script displaying numbers from 1 to 20 and displays bad luck from china for the 4th loop iteration bad luck from Japan for the 9th loop iteration and bad luck from italy for the 17th loop iteration
+
+count=1
+while [ $count -le 20 ]
+do
+	case $count in
+		4)
+			echo "$count"
+			echo "bad luck from China"
+			;;
+		9)
+			echo "$count"
+			echo "bad luck from Japan"
+			;;
+		17)
+			echo "$count"
+			echo "bad luck from italy"
+			;;
+		*)
+			echo "$count"
+			;;
+esac
+count=$((count+1))
+done
