@@ -2,9 +2,12 @@
 # A Bash script that displays the time for 12 hours and 59 minutes
 
 hours=0
+
 while [ $hours -le 12 ]
 do
+
 	minute=1
+
 	echo "hour: $hours"
 	while [ $minute -le 59 ]
 	do
