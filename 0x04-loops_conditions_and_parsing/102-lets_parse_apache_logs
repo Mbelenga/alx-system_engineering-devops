@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# A Bash script that displays the visitor IP
+
+
+awk '{print $1 , $9}'apache-access.log
