@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Displays content of /etc/passwd, using the while loop + IFS.
+# Displays the content of /etc/passwd, using the while loop + IFS.
 
 while IFS=: read -r f1 f2 f3 f4 f5 f6 f7
 do
