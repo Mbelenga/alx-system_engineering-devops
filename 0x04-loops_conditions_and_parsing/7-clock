@@ -10,6 +10,6 @@ do
 	do
 		echo "$minute"
 		((minute++))
-done
-((hours++))
+	done
+	((hours++))
 done
