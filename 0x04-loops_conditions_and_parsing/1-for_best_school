@@ -3,7 +3,7 @@
 #Bash script that displays best school 10 times
 
 
-for ((i=1: i<=10 i++))
+for ((i=1; i<=10; i++))
 
 do
 	echo "Best School"
