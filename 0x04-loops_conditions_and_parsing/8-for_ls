@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Displays the content of the current directory
+# In a list format
+
+for files in *
+do
+	echo "$files" | cut -d"-" -f2
+
+done
