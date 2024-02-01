@@ -2,4 +2,4 @@
 # Displays listening ports
 # That only shows listening pockets
 # That shows PID and name of the program
-sudo netstat -lp
+sudo netstat -Ip
