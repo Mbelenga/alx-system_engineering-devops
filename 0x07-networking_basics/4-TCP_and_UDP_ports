@@ -1,1 +1,5 @@
 #!/usr/bin/env bash
+# Displays listening ports
+# That only shows listening pockets
+# That shows PID and name of the program
+sudo netstat -1p
