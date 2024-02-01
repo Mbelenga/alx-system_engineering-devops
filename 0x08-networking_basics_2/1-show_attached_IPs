@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-# A script that displays all active IPv4
-ifconfig | grep 'inet' | awk ' {print $2}'
+# This script dislays all active IPV4 IPs
+
+# ifconfig | grep 'inet ' | awk '{print $2}'
+ip -4 -o addr show | awk '{print $4}' | cut -d'/' -f1
