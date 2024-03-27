@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#  Client configuration file
+# Refuse to authenticate using a password
+
+SendEnv LANG LC_*
+HashKnownHosts yes
+GSSAPIAuthentication yes
+PasswordAuthentication no
+IdentityFile ~/.ssh/school
