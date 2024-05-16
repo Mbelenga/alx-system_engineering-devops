@@ -1,4 +1,4 @@
-# Changing the OS configuration
+# Changing the OS configuration so that it is possible to login with the holberton user
 
 exec {'replace-1':
   provider => shell,
